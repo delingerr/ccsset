@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron bg-dark text-white">
+        <div class="container">
+          <h1 class="display-4">Weather Dashboard</h1>
+        </div>
+      </div>
+
+      <div class="container row">
+          
+        <div class="col-md-3">
+            <h3>Search for a City:</h3>
+            <form class="example" action="/action_page.php">
+                <input type="text" name="search" id="search-input">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+            <br>
+            <div class="list-group">
+              
+
+            </div>   
+        </div>
+        <div class="card col-md-9">
+          <div class="card-body card-current">
+           
+          </div>
+          <div class="forecast-container">
+            <h3>5-Day Forecast:</h3>
+            <div class="card-deck">
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <script src="script.js"></script>
+    
+</body>
+</html>

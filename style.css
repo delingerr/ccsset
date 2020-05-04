@@ -1,0 +1,49 @@
+.jumbotron{
+    text-align: center;
+}
+.col-md-3{
+ 
+    background-color: rgb(241, 241, 241);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card-deck .card-body{
+  width: 150px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+}
+
